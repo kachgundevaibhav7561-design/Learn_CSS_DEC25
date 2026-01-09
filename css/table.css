@@ -1,0 +1,14 @@
+caption{
+    font-size: 25px;
+    color: black;
+    background-color: yellowgreen;
+}
+thead{
+    color: red;
+    background-color: yellow;
+    font-size: 30px;
+}
+tbody,tfoot{
+    background-color: aqua;
+    font-size: 30px;
+}
