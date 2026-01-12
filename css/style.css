@@ -1,10 +1,68 @@
-h4{
+h4 {
     color: orange;
     background-color: aquamarine;
     font-size: 45px;
 }
-p{
+
+/* p {
     background-color: black;
     color: yellow;
     font-size: 25px;
+} */
+
+.t_transform_uppercase {
+    text-transform: uppercase;
+}
+
+.t_transform_lowercase {
+    text-transform: lowercase;
+}
+
+.t_transform_capitalize {
+    text-transform: capitalize;
+
+}
+
+.t_align_center {
+    text-align: center;
+}
+
+.t_align_right {
+    text-align: right;
+}
+
+.t_decor_over {
+    text-decoration: overline;
+}
+
+.t_decor_line {
+    text-decoration: line-through;
+}
+
+.t_decor {
+    text-decoration: underline overline line-through;
+}
+.t_indent{
+    text-indent:200px ;
+}
+.t_line_height{
+    line-height: 28px;
+}
+.t_spacing{
+    letter-spacing: 10px;
+}
+.t_wordspacing{
+    word-spacing: 5px;
+}
+.t_shadow{
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+    text-shadow: 10px 7px 7px gray;
+}
+.t_shadows{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    text-shadow: 10px 7px 7px gray;
 }
