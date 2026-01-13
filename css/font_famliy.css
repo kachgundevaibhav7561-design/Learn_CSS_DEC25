@@ -1,0 +1,32 @@
+.f_family1 {
+    line-height: 23px;
+    font-family: monospace;
+}
+
+.f_family2 {
+    line-height: 23px;
+    font-family: cursive;
+}
+
+.f_family3 {
+    line-height: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f_family4 {
+    line-height: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.f_family5{
+    line-height: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.f_weight{
+    font-weight:800;
+    font-style: inherit ;
+}
+.f_font{
+    font: italic bold 40px  verdana;
+    text-align: right;
+}
