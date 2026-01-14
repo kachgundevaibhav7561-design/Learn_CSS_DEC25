@@ -18,15 +18,18 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.f_family5{
+
+.f_family5 {
     line-height: 23px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.f_weight{
-    font-weight:800;
-    font-style: inherit ;
+
+.f_weight {
+    font-weight: 800;
+    font-style: inherit;
 }
-.f_font{
-    font: italic bold 40px  verdana;
+
+.f_font {
+    font: italic bold 40px verdana;
     text-align: right;
 }
