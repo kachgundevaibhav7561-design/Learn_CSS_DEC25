@@ -1,0 +1,55 @@
+.box{
+    width: 200px;
+    height: 150px;
+    background-color: chartreuse;
+    border: 5px solid red;
+    margin-bottom: 10px;
+
+
+}
+.box1{
+    position: static;
+}
+.box2{
+    position: relative;
+    top: 25px;
+    left: 150px;
+}
+.box3{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+
+}
+.box4{
+    position: fixed;
+    bottom: 0px ;
+    right: 10px;
+}
+.box5{
+    position: sticky;
+    top: 0;
+}
+
+/* relative_absolute example */
+
+.rel{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+}
+#tv{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    background-color: rebeccapurple;
+}
+#sofas{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+    left: 80px;
+    right: 120pxt;
+}

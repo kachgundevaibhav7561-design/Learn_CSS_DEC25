@@ -1,0 +1,19 @@
+.linear {
+    height: 400px;
+    background: linear-gradient(orange, white, green);
+}
+
+h1 {
+    text-align: center;
+    font-size: 25pcx;
+}
+
+.radial {
+    height: 400px;
+    background: radial-gradient(orange, white, green);
+}
+
+.conical {
+    height: 500px;
+    background: conic-gradient(from 90deg, red, yellow, green, blue, aqua);
+}
