@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 30px; */
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.box {
+    background-color: chocolate;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    transition: transform 2s ease-out 500ms;
+
+
+}
+
+.box1:hover {
+    transform: translate(325px, 225px);
+
+}
+
+.box2:hover {
+    transform: translateX(-100px);
+
+}
+
+.box3:hover {
+
+    transform: translateY(100px);
+}
+
+.box4:hover {
+    transform: rotate(-720deg);
+}
+
+.box5:hover {
+    transform: skewX(50deg);
+}
+
+.box6:hover {
+    transform: skewY(100deg);
+}
+
+.box7:hover {
+    transform: scale(3);
+}
+
+.box8:hover {
+    transform: scale(0.5) rotate(40deg) translate(20px) skew(25deg);
+}
+div{
+    width: 500px;
+    height: 500px;
+    border-radius:40px;
+    background-color: yellow;
+    border: 2px solid black;
+    animation: movingbox;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes movingbox{
+    0%{background-image: url("/image/bird-7902319_640.jpg");}
+    25%{background-image: url("/image/tiger-3264048_640.jpg"); }
+    50%{background-image: url("/image/R3000302.jpg");}
+    75%{background-image: url("/image/images.jpg"); }
+    100%{background-image: url("/image/water-lily-3504363_640.jpg");}
+}
