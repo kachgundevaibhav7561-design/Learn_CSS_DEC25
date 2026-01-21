@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swing{
+    animation: swing 1.5s ease-in-out infinite alternate;
+    transform-origin: top center;
+    position: relative;
+
+}
+.swing  img{
+    width: 200px;
+    border: 14px groove gold;
+    box-shadow: 8px 8px 8px gray ;
+    display: block;
+
+}
+.swing::before{
+    content: " ";
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 7px;
+    height: 10px;
+    background: black;
+
+}
+.swing::after{
+    content: "\2B24";
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 10px;
+    border-radius: 50%;
+}
+
+@keyframes swing{
+    0%{transform: rotate(3deg);}
+    100%{transform: rotate(-90deg);}
+
+}

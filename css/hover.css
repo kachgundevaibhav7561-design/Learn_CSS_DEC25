@@ -20,7 +20,7 @@ h1:hover{
     padding: 10px;
     background-color: white;
     color: black;
-    background: linear-gradient(orange,green);
+    background: radial-gradient(orange,green);
 }
 h2:active{
     color: rebeccapurple;
@@ -47,4 +47,5 @@ p::first-line{
 ::selection{
     color: red;
     background-color: yellow;
+    margin-top: 2px;
 }
