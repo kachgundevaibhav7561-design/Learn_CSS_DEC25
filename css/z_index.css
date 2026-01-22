@@ -1,0 +1,36 @@
+.container{
+    position: relative;
+    margin: 100px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1600px;
+
+}
+.white{
+    background-color: blue;
+    left: 40px;
+    z-index: 1;
+}
+.orange{
+    background-color: orange;
+    left: 80px;
+    z-index: 2;
+}
+.green{
+    background-color: green;
+    left: 120px;
+    z-index: 10;
+}
+.green:active{
+    background-color: aqua;
+    z-index: 40;
+    transform: scale(3);
+}
