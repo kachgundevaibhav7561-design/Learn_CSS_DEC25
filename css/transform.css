@@ -54,5 +54,5 @@
 
 .box8:hover {
 
-    transform: scale(1) rotate(40deg) translate(20px) skew(25deg);
+    transform: scale(1) rotate(-40deg) translate(20px) skew(25deg);
 }
